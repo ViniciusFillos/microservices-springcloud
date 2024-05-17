@@ -3,6 +3,7 @@ package io.github.vinifillos.msclientes.application;
 import io.github.vinifillos.msclientes.application.dto.ClieteSaveDto;
 import io.github.vinifillos.msclientes.domain.Cliente;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -13,12 +14,14 @@ import java.util.Optional;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/clientes")
+@Slf4j
 public class ClientesController {
 
     private final ClienteService clienteService;
 
     @GetMapping
     private String status() {
+        log.info("Obtendo o status de microservice de clientes");
         return "ok";
     }
 
