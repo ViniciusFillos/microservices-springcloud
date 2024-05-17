@@ -15,7 +15,6 @@ public class AvaliadorCreditoController {
 
     private final AvaliadorCreditoService avaliadorCreditoService;
 
-
     @GetMapping
     public String status() {
         return "ok";
