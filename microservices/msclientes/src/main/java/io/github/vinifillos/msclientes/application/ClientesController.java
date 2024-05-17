@@ -38,7 +38,7 @@ public class ClientesController {
     }
 
     @GetMapping(params = "cpf")
-    public ResponseEntity dadosCliente(@RequestParam String cpf) {
+    public ResponseEntity dadosCliente(@RequestParam("cpf") String cpf) {
         Optional<Cliente> cliente = clienteService.getByCpf(cpf);
         if (cliente.isEmpty()) return ResponseEntity.notFound().build();
         return ResponseEntity.ok(cliente);
