@@ -1,6 +1,5 @@
 package io.github.vinifillos.mscartoes.application.dto;
 
-import io.github.vinifillos.mscartoes.domain.CartaoBandeira;
 import io.github.vinifillos.mscartoes.domain.CartaoCliente;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,14 +10,14 @@ import java.math.BigDecimal;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CartoesPorClienteDto {
+public class CartaoPorClienteDto {
 
     private String nome;
     private String bandeira;
     private BigDecimal limiteLiberado;
 
-    public static CartoesPorClienteDto fromModel(CartaoCliente model){
-        return new CartoesPorClienteDto(
+    public static CartaoPorClienteDto fromModel(CartaoCliente model){
+        return new CartaoPorClienteDto(
                 model.getCartao().getNome(),
                 model.getCartao().getBandeira().toString(),
                 model.getLimite()

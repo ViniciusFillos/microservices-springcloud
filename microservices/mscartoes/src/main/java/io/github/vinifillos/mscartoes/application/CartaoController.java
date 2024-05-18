@@ -1,7 +1,7 @@
 package io.github.vinifillos.mscartoes.application;
 
 import io.github.vinifillos.mscartoes.application.dto.CartaoSaveDto;
-import io.github.vinifillos.mscartoes.application.dto.CartoesPorClienteDto;
+import io.github.vinifillos.mscartoes.application.dto.CartaoPorClienteDto;
 import io.github.vinifillos.mscartoes.domain.Cartao;
 import io.github.vinifillos.mscartoes.domain.CartaoCliente;
 import lombok.RequiredArgsConstructor;
@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("cartoes")
-public class CartoesController {
+public class CartaoController {
 
     private final CartaoService cartaoService;
     private final ClienteCartaoService clienteCartaoService;
@@ -39,10 +39,10 @@ public class CartoesController {
     }
 
     @GetMapping(params = "cpf")
-    public ResponseEntity<List<CartoesPorClienteDto>> getCartoesByCliente(@RequestParam("cpf") String cpf) {
+    public ResponseEntity<List<CartaoPorClienteDto>> getCartoesByCliente(@RequestParam("cpf") String cpf) {
         List<CartaoCliente> list = clienteCartaoService.listCartaoByCpf(cpf);
-        List<CartoesPorClienteDto> resultList = list.stream()
-                .map(CartoesPorClienteDto::fromModel)
+        List<CartaoPorClienteDto> resultList = list.stream()
+                .map(CartaoPorClienteDto::fromModel)
                 .collect(Collectors.toList());
         return ResponseEntity.ok(resultList);
     }
