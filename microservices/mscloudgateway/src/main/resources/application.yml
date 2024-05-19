@@ -1,13 +1,17 @@
 spring:
   application:
     name: mscloudgateway
-
   cloud:
     gateway:
       discovery:
         locator:
           enabled: true
           lower-case-service-id: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://${KEYCLOAK_SERVER}:${KEYCLOAK_PORT}/realms/mscloudrealm
 
 server:
   port: 8080
@@ -17,4 +21,5 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defautlZone: http://localhost:8761/eureka
+      defaultZone: http://eureka-user:1234567890@${EUREKA_SERVER}:8761/eureka
+
