@@ -1,14 +1,17 @@
 spring:
   application:
     name: mscloudgateway
-
   cloud:
     gateway:
       discovery:
         locator:
           enabled: true
           lower-case-service-id: true
-
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8081/realms/mscloudrealm
 server:
   port: 8080
 
