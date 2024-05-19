@@ -1449,3 +1449,136 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
 
 2024-05-19 20:02:20.096  INFO 7820 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-05-19 20:15:44.959  INFO 9864 --- [restartedMain] i.g.v.mscartoes.MscartoesApplication     : Starting MscartoesApplication using Java 17.0.11 on Vini-Fillos with PID 9864 (C:\Projetos\microservices-springcloud\microservices\mscartoes\target\classes started by winky in C:\Projetos\microservices-springcloud\microservices\mscartoes)
+2024-05-19 20:15:44.960  INFO 9864 --- [restartedMain] i.g.v.mscartoes.MscartoesApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-19 20:15:45.025  INFO 9864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-19 20:15:45.025  INFO 9864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-19 20:15:46.517  INFO 9864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-19 20:15:46.767  INFO 9864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 237 ms. Found 2 JPA repository interfaces.
+2024-05-19 20:15:47.062  INFO 9864 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2a97c75b-df5a-37f1-a994-a3cff661010e
+2024-05-19 20:15:47.700  INFO 9864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2024-05-19 20:15:47.713  INFO 9864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-19 20:15:47.714  INFO 9864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-05-19 20:15:47.817  INFO 9864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-19 20:15:47.818  INFO 9864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2792 ms
+2024-05-19 20:15:47.944  INFO 9864 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-19 20:15:48.206  INFO 9864 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-19 20:15:48.221  INFO 9864 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:c5a99861-f8d7-4bc9-98af-0b9e9a827051'
+2024-05-19 20:15:48.453  INFO 9864 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-19 20:15:48.521  INFO 9864 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2024-05-19 20:15:48.717  INFO 9864 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-05-19 20:15:48.851  INFO 9864 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-05-19 20:15:49.460  INFO 9864 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-19 20:15:49.467  INFO 9864 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-19 20:15:49.969  WARN 9864 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-19 20:15:51.595  WARN 9864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-05-19 20:15:51.695  INFO 9864 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-05-19 20:15:51.789  WARN 9864 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-05-19 20:15:51.803  INFO 9864 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2024-05-19 20:15:51.985  INFO 9864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49197 (http) with context path ''
+2024-05-19 20:15:51.988  INFO 9864 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 49197
+2024-05-19 20:15:51.995  INFO 9864 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-05-19 20:15:52.074  INFO 9864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-05-19 20:15:52.088  INFO 9864 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-05-19 20:15:52.115  INFO 9864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-05-19 20:15:52.116  INFO 9864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-05-19 20:15:52.116  INFO 9864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-05-19 20:15:52.116  INFO 9864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-05-19 20:15:52.116  INFO 9864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-05-19 20:15:52.116  INFO 9864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-05-19 20:15:52.117  INFO 9864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-05-19 20:15:52.462  INFO 9864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-05-19 20:15:52.465  INFO 9864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-05-19 20:15:52.467  INFO 9864 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-05-19 20:15:52.472  INFO 9864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1716160552471 with initial instances count: 1
+2024-05-19 20:15:52.474  INFO 9864 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSCARTOES with eureka with status UP
+2024-05-19 20:15:52.475  INFO 9864 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1716160552475, current=UP, previous=STARTING]
+2024-05-19 20:15:52.477  INFO 9864 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:f8dd64e5ebfe2af96250bffdbf438e4e: registering service...
+2024-05-19 20:15:52.573  INFO 9864 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-05-19 20:15:52.596  INFO 9864 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:f8dd64e5ebfe2af96250bffdbf438e4e - registration status: 204
+2024-05-19 20:15:52.752  INFO 9864 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#32eeb508:0/SimpleConnection@36f4e6da [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49200]
+2024-05-19 20:15:52.857  INFO 9864 --- [restartedMain] i.g.v.mscartoes.MscartoesApplication     : Started MscartoesApplication in 8.733 seconds (JVM running for 9.95)
+2024-05-19 20:15:53.071  INFO 9864 --- [RMI TCP Connection(2)-192.168.1.105] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-19 20:15:53.071  INFO 9864 --- [RMI TCP Connection(2)-192.168.1.105] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-19 20:15:53.074  INFO 9864 --- [RMI TCP Connection(2)-192.168.1.105] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-05-19 20:17:11.059  INFO 9864 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCARTOES with eureka with status DOWN
+2024-05-19 20:17:11.060  INFO 9864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1716160631060, current=DOWN, previous=UP]
+2024-05-19 20:17:11.061  INFO 9864 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:f8dd64e5ebfe2af96250bffdbf438e4e: registering service...
+2024-05-19 20:17:11.077  INFO 9864 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:f8dd64e5ebfe2af96250bffdbf438e4e - registration status: 204
+2024-05-19 20:17:11.079  INFO 9864 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-05-19 20:17:11.483  INFO 9864 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-05-19 20:17:11.533  INFO 9864 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2024-05-19 20:17:11.535  INFO 9864 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-19 20:17:11.537  INFO 9864 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-05-19 20:17:11.786  WARN 9864 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2024-05-19 20:17:11.788  INFO 9864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-19 20:17:11.791  INFO 9864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-19 20:17:11.793  INFO 9864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-05-19 20:17:14.800  INFO 9864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-05-19 20:17:14.818  INFO 9864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:f8dd64e5ebfe2af96250bffdbf438e4e - deregister  status: 200
+2024-05-19 20:17:14.822  INFO 9864 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-05-19 20:17:22.828  INFO 13044 --- [restartedMain] i.g.v.mscartoes.MscartoesApplication     : Starting MscartoesApplication using Java 17.0.11 on Vini-Fillos with PID 13044 (C:\Projetos\microservices-springcloud\microservices\mscartoes\target\classes started by winky in C:\Projetos\microservices-springcloud\microservices\mscartoes)
+2024-05-19 20:17:22.831  INFO 13044 --- [restartedMain] i.g.v.mscartoes.MscartoesApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-19 20:17:22.897  INFO 13044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-19 20:17:22.898  INFO 13044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-19 20:17:25.541  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-19 20:17:25.883  INFO 13044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 313 ms. Found 2 JPA repository interfaces.
+2024-05-19 20:17:26.251  INFO 13044 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2a97c75b-df5a-37f1-a994-a3cff661010e
+2024-05-19 20:17:27.344  INFO 13044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2024-05-19 20:17:27.383  INFO 13044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-19 20:17:27.384  INFO 13044 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2024-05-19 20:17:27.767  INFO 13044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-19 20:17:27.767  INFO 13044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4869 ms
+2024-05-19 20:17:27.953  INFO 13044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-19 20:17:28.219  INFO 13044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-19 20:17:28.229  INFO 13044 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:718034a5-9961-4da7-b408-231f3997fe8e'
+2024-05-19 20:17:28.462  INFO 13044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-19 20:17:28.572  INFO 13044 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2024-05-19 20:17:28.783  INFO 13044 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-05-19 20:17:28.934  INFO 13044 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-05-19 20:17:29.611  INFO 13044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-19 20:17:29.620  INFO 13044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-19 20:17:30.092  WARN 13044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-19 20:17:31.668  WARN 13044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-05-19 20:17:31.780  INFO 13044 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-05-19 20:17:31.854  WARN 13044 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-05-19 20:17:31.859  INFO 13044 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2024-05-19 20:17:32.030  INFO 13044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49252 (http) with context path ''
+2024-05-19 20:17:32.031  INFO 13044 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 49252
+2024-05-19 20:17:32.037  INFO 13044 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-05-19 20:17:32.077  INFO 13044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-05-19 20:17:32.081  INFO 13044 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-05-19 20:17:32.102  INFO 13044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-05-19 20:17:32.103  INFO 13044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-05-19 20:17:32.103  INFO 13044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-05-19 20:17:32.103  INFO 13044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-05-19 20:17:32.103  INFO 13044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-05-19 20:17:32.103  INFO 13044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-05-19 20:17:32.104  INFO 13044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-05-19 20:17:32.421  INFO 13044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-05-19 20:17:32.423  INFO 13044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-05-19 20:17:32.426  INFO 13044 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-05-19 20:17:32.432  INFO 13044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1716160652431 with initial instances count: 1
+2024-05-19 20:17:32.433  INFO 13044 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSCARTOES with eureka with status UP
+2024-05-19 20:17:32.434  INFO 13044 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1716160652434, current=UP, previous=STARTING]
+2024-05-19 20:17:32.436  INFO 13044 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:9d84fa3d9fcb98856957bdc85305fd79: registering service...
+2024-05-19 20:17:32.530  INFO 13044 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2024-05-19 20:17:32.548  INFO 13044 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:9d84fa3d9fcb98856957bdc85305fd79 - registration status: 204
+2024-05-19 20:17:32.595  INFO 13044 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#77220bb8:0/SimpleConnection@7b342979 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49255]
+2024-05-19 20:17:32.676  INFO 13044 --- [restartedMain] i.g.v.mscartoes.MscartoesApplication     : Started MscartoesApplication in 10.523 seconds (JVM running for 11.53)
+2024-05-19 20:17:33.249  INFO 13044 --- [RMI TCP Connection(1)-192.168.1.105] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-19 20:17:33.249  INFO 13044 --- [RMI TCP Connection(1)-192.168.1.105] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-19 20:17:33.251  INFO 13044 --- [RMI TCP Connection(1)-192.168.1.105] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-19 20:21:33.460  INFO 13044 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCARTOES with eureka with status DOWN
+2024-05-19 20:21:33.474  INFO 13044 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1716160893473, current=DOWN, previous=UP]
+2024-05-19 20:21:33.476  INFO 13044 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:9d84fa3d9fcb98856957bdc85305fd79: registering service...
+2024-05-19 20:21:33.502  INFO 13044 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCARTOES/mscartoes:9d84fa3d9fcb98856957bdc85305fd79 - registration status: 204
+2024-05-19 20:21:33.596  INFO 13044 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-05-19 20:21:33.637  INFO 13044 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-05-19 20:21:33.818  INFO 13044 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2024-05-19 20:21:33.825  INFO 13044 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-19 20:21:33.875  INFO 13044 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-05-19 20:21:34.247  WARN 13044 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-212]
+2024-05-19 20:21:34.251  INFO 13044 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-19 20:21:34.269  INFO 13044 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-19 20:21:34.274  INFO 13044 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
